@@ -1,0 +1,89 @@
+  /* #*/ export const PERSON = `
+  name:
+    first: Nicolas
+    middle:
+    last: Richaud
+
+  position: Software Developer
+  experience_year: 4
+
+  resume: "Continuous learner, en éternel apprentissage, j'apprends donc je suis. Je n'aime pas me limiter à une fiche métier. Je suis bien plus que cela ! "
+  projects:
+    -
+      label: 'github'
+      link: 'toto'
+    -
+      label: 'other'
+      link: ''
+  experience:
+    - company: Mister auto
+      position: Devops
+      timeperiod:
+        begin: "2016-01-01"
+        end: "2016-01-01"
+      project_subject: Amélioration des performances de l’appli et de l’environnement de dev
+      description: Mister-Auto est un site e-commerce de vente de pièces automobiles.
+      team:
+        -
+          number: 2
+          position: lead dev
+        -
+          number: 1
+          position: dev front
+      work_done:
+        - Profiling de l’appli avec blackfire, et écriture de recommandation
+        - Profiling de la génération des assets
+        - Investigation source slowqueries Mysql
+      skills:
+        - name: Langages
+          list: ['PHP5/7', 'HTML5', 'CSS3', 'SASS', 'JavaScript', 'C#', 'C', 'C++', 'scripts shell','Java', 'Python', 'PLSQL']
+        - name: Framework & API
+          list: ['Symfony2/3/4', 'Jquery', 'Cakephp 2.3' , 'Bootstrap' , 'vue.js 2' , 'React']
+        - name: Serveur
+          list: ['Nginx', 'Apache']
+        - name: Gestionnaire de version
+          list: ['Git', 'GitLab' , 'BitBucket']
+        - name: systeme
+          list: ['Windows', 'Linux', 'Android', 'iOS', 'OS X']
+        - name: methodologies
+          list: ['méthodes agiles (scrum, Kanban)', 'TDD', 'BDD', 'versioning' , 'poker planning' , 'sprint planning']
+        - name: conception
+          list: ['UML']
+        - name: webservices
+          list: ['REST', 'SOAP']
+        - name: autres outil et technos
+          list: ['NetBeans', 'Xcode', 'Eclipse', 'Circle CI', 'Ansible', 'RabbitMQ']
+
+  education: "licence informatique , Université Avignon "
+
+  lang_talk: ['Français','Anglais']
+  domain: ['Web app','Microservice','Api']
+  # skill level goes 0 to 100
+  skills:
+    - name: Langages
+      list: ['PHP5/7', 'HTML5', 'CSS3', 'SASS', 'JavaScript', 'C#', 'C', 'C++', 'scripts shell','Java', 'Python', 'PLSQL']
+    - name: Framework & API
+      list: ['Symfony2/3/4', 'Jquery', 'Cakephp 2.3' , 'Bootstrap' , 'vue.js 2' , 'React']
+    - name: Serveur
+      list: ['Nginx', 'Apache']
+    - name: Gestionnaire de version
+      list: ['Git', 'GitLab' , 'BitBucket']
+    - name: systeme
+      list: ['Windows', 'Linux', 'Android', 'iOS', 'OS X']
+    - name: methodologies
+      list: ['méthodes agiles (scrum, Kanban)', 'TDD', 'BDD', 'versioning' , 'poker planning' , 'sprint planning']
+    - name: conception
+      list: ['UML']
+    - name: webservices
+      list: ['REST', 'SOAP']
+    - name: autres outil et technos
+      list: ['NetBeans', 'Xcode', 'Eclipse', 'Circle CI', 'Ansible', 'RabbitMQ']
+
+
+
+
+
+  # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
+  lang: fr
+  resume_template: default
+    `
