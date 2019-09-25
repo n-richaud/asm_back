@@ -5,7 +5,7 @@
 
 
 <script>
-    import Editor from "../components/editor";
+    import Editor from "../../components/editor";
     export default {
         name: "CV",
         components: {

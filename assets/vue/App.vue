@@ -22,15 +22,17 @@
             <b-navbar-item href="#">
                 Mes dossiers de compétences
             </b-navbar-item>
-            <b-navbar-item href="#">
-                gérer les dossiers de compétences
-            </b-navbar-item>
-            <b-navbar-dropdown label="Info">
-                <b-navbar-item href="#">
-                    ssss
+            <b-navbar-dropdown label="Admin">
+                <router-link
+                        class="navbar-brand"
+                        :to="{name: 'adminUser'}"
+                >
+                <b-navbar-item >
+                    gerer les users
                 </b-navbar-item>
+                </router-link>
                 <b-navbar-item href="#">
-                    Contact
+                    gérer les dossiers de compétences
                 </b-navbar-item>
             </b-navbar-dropdown>
         </template>
@@ -45,7 +47,7 @@
     export default {
         name: "App",
         created() {
-            let redirect = 'connect/login';
+            let redirect = 'connect/google';
 
             if (!this.$store.getters["security/isAuthenticated"]) {
                 this.$store.dispatch("security/login");
